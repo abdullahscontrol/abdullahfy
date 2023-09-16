@@ -1,0 +1,32 @@
+:root{
+    --color-background:     rgba(0, 5, 22, 0.973);
+    --color-light:          #ffff;
+    --color-background2:    rgb(0, 0, 0);
+    --color-main:           rgb(223, 12, 223);
+    --color-dark:           rgb(0, 0, 0);
+    --color-yellish:        rgba(255, 255, 0, 0.925);
+    --color-polaris:        rgb(226, 10, 10);
+}
+html { scroll-behavior: smooth; }
+.headea{
+        display: flex;
+        width: 100%;
+        height: 5rem;
+        justify-content: space-between;
+}
+.hed{
+    width:  3rem;
+    height: 5rem;
+    border: 3px solid var(--color-polaris);
+}
+.hed1{ border-radius: 1rem; }
+ hed2{ text-align: left;}
+#my--icon{
+    border-radius: 100%;
+    width: 3rem;
+    height: 3rem;
+}
+img {      
+ width:  5rem;
+ height: 5rem;
+}

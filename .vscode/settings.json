@@ -1,0 +1,8 @@
+{
+    "editor.fontSize": 14,
+    "scm.inputFontSize": 8,
+    "editor.inlayHints.fontSize": 14,
+    "editor.suggestFontSize": 15,
+    "screencastMode.fontSize": 100,
+    "liveServer.settings.port": 5502
+}

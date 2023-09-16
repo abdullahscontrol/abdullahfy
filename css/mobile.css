@@ -1,0 +1,173 @@
+:root{
+    --color-background:rgba(0, 5, 22, 0.973);
+    --color-light:#ffff;
+    --color-background2:rgb(0, 0, 0);
+    --color-main:rgb(223, 12, 223);
+    --color-dark:rgb(0, 0, 0);
+    --color-yellish:rgba(255, 255, 0, 0.925);
+}
+html{ 
+    scroll-behavior: smooth;
+}
+@media screen and (max-width:500px) {
+    body{
+        background: var(--color-background);
+        margin: 0;
+        margin-top: 1rem;
+    }
+    .section-top{
+        width: 100%;  
+        font-size: 1rem;  
+        text-align: left;
+        margin-left: 1rem;
+        display: flex;
+        justify-content: left;
+    } 
+    #am-logo{
+        width: 3rem;
+        height: 3rem;
+        border-radius: 100%;
+    }
+    .links{
+        display: none;
+    }
+    .section-center{
+        display: flex;
+        flex-direction: row;
+        width: 100vw;
+        height: 100vh;  
+        margin: 0;
+    }
+    .center1{
+        display: none;
+    }
+    
+    .center-header{ font-size: 2;}
+    .section-bottom{
+        border:  3px solid var(--color-light);
+        display: flex;
+        justify-content: space-between;
+        width: 96vw;
+        margin-left: 0;
+    }
+
+    .section-about-me{
+        margin-left: .9rem;
+        width: 98vw;
+        height:96vh;
+        /* margin-left: -6rem; */
+        text-align: center;
+    }
+    .about-me-head{
+        font-size: 2rem;
+        padding: 1rem;
+    }
+    .me-head{ font-size: 1.5rem;}
+    .me-main{
+        font-size: 1rem;
+        text-align: center;
+    }
+    .me{ width: 96vw; }
+    .section-me{
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .container{
+        display: grid;
+        grid-template: repeat(3, 7rem) / repeat(2, 44vw) ;
+        justify-items: stretch;
+        align-items: stretch;
+        column-gap: 1rem;
+        row-gap: 1rem;
+        width: 98vw;
+        
+    }
+    .box{
+        margin-left: 1.5rem;
+        border-bottom: 4px solid var(--color-yellish);
+        border-left: 4px solid var(--color-main);
+        border-top: 4px solid var(--color-main);
+        border-right: 4px solid var(--color-yellish);
+        border-radius: 1rem  2.5rem;
+        padding: 1rem;
+        box-shadow: 2px 2px 30px var(--color-main);
+        text-align: center;
+        border: 3px solid white;
+    }
+    .box-head {
+font-size: 1.5rem;
+    }
+    .box-main{
+font-size: 1rem;
+    }
+    #contact-me{ margin-left: 33vw;}
+    .section-me{
+        display: flex;
+        flex-direction: column;
+    }
+    .container2{
+        margin: 0;
+    }
+    .container3{
+        display: grid;
+        grid-template:    7rem 7rem / 5rem  5rem  5rem;
+        width: auto;
+        height: auto;
+        justify-content: center;
+        align-content: center;
+        /* grid-column-gap: 3rem;
+        grid-row-gap: 1rem;
+        padding: 1rem;
+        align-content: center;
+        justify-content: center;
+        align-content: center;
+        align-items: center; */
+        grid-gap: 1rem;
+    
+    }
+    #pages, .pages{
+        display: none;
+        width: 20vw;
+        height: 14.4rem;
+    }
+    #send{
+        font-size: 1.5rem;
+        margin: 0;
+    }
+    input{
+        border: 3px solid var(--color-main);
+        box-shadow: 2px 2px 30xp var(--color-main);
+        border-radius: .5rem;
+        width: 70vw;
+        line-height: 2;
+        color: var(--color-main);
+        padding: .1rem;
+        padding-left: 1rem;
+        font-size: 1rem;
+    }
+    textarea{
+        border: 3px solid var(--color-main);
+        box-shadow: 2px 2px 30xp var(--color-main);
+        padding-left: 3rem;
+        border-radius: .5rem;
+        width: 72vw;   
+        height: 15rem;
+        line-height: 2;
+        color: var(--color-main);
+        padding: .1rem;
+        font-size: 1rem;
+    }
+    .me-head2{
+        text-align: center;
+    }
+    #subject{
+        margin: 0;
+    }
+    #nam{
+        font-size: 2rem;
+    }
+    #rayuwa{ font-size: 2rem;}
+    
+}
